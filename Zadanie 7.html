@@ -1,0 +1,71 @@
+<html>
+<head>
+<META HTTP-EQUIV="content-type" CONTENT="text/html; CHARSET=iso-8859-2;"charset="UTF-8" >
+</head>
+<body> 
+<font face="Arial">
+<OL TYPE=B START=1>
+<h1> <LI> Na co pozwala styl lokalny, który element będzie formatowany z użyciem stylu lokalnego, </h1>
+
+Styl lokalny pozwala na nadanie formatowania konkretnemu pojedynczemu elementowi strony. 
+Jest wstawiany w tej samej linii, w której znajduje się element formatowany. 
+O tym, który to będzie element, decyduje słowo kluczowe "selektor".
+
+<h1> <LI> Składnia teoretyczna ( z użyciem ramki otaczającej może być tabela o jednej komórce, 
+zastosuj „znaki specjalne” do napisania definicji stylu lokalnego tak aby instrukcja CSS nie wykonywała 
+się a tylko wyświetlała wewnątrz ramki [&nbsp; spacja niełamana] przykład „znaku specjalnego”), </h1>
+
+<textarea> 
+<selektor style="cecha1: wartość1; cecha2: wartość2...">...</selektor>
+</textarea> <br>
+lub inaczej <br>
+<textarea>
+<selektor style="nasze style">treść bloku</selektor>
+</textarea>
+
+<h1> <LI> Co może być selektorem,</h1>
+
+Selektorem może być praktycznie dowolny znacznik, np. p (akapit), h1 (nagłówek), td (komórka tabeli) i inne. 
+To właśnie elementom znajdującym się pomiędzy tymi znacznikami, nadajemy atrybuty formatowania.
+
+<h1> <LI> Co wipisujemy jako "cechę". Jakie jest znaczenie średników,</h1>
+
+Jako "cecha" czy inaczej własność bądź właściwość (ang. "property") należy wpisać o jakie 
+konkretnie atrybuty formatowania nam chodzi (np. kolor tekstu - color). Jednemu selektorowi możemy 
+nadać kilka atrybutów (cech). Są one wtedy rozdzielone średnikami.
+
+  
+<h1> <LI>Co wipisujemy jako "wartość" (w deklaracji stylu).</h1>
+Jako wyraz "wartość" (w deklaracji stylu) wpisujemy dokładną wartość atrybutu (np. dla koloru tekstu będzie to:
+ red, blue czy też #31F4A5 itd.). Wartość zależy ściśle od cechy, po której stoi w deklaracji. 
+ Opis wszystkich cech później.<br>
+<br>
+Przykład <br><br>
+<textarea>
+<p style="color: red">To jest kolor tekstu na czerwono</p>
+</textarea> <br>
+Uwaga:<br>
+Styl wpisany jest wprowadzony w wybranym znaczniku i nie ma wpływu na pozostałe znaczniki.<br><br>
+<textarea>
+<html>
+<head>
+<title>styl wpisany</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- styl wpisany -->
+</head>
+<body bgcolor="red">
+<p style="font-family: Arial, Helvetica, sans-serif; font-size: 40px;">
+styl wpisany wielkosc 40 pikseli</p>
+<p>styl wpisany wielościa standardowa z użyciem znacznika -->p</p>
+<span style="font-family: Arial, Helvetica, sans-serif; font-size: 25px;">
+styl wpisany wielkosc 25 pikseli</span> <br>
+<span>styl wpisany wielością standardową-->span</span>
+
+</textarea></ol>
+</body>
+</html>
+</font>
+
+
+
+

@@ -1,0 +1,24 @@
+
+abc{ color: #333; /* 
+<html>
+<head>
+<title>styl zewnetrzne</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- 22.11.2022 -->
+<style>
+@import url("subi_z5_1.css ");
+</style>
+</head>
+<body bgcolor="silver">
+<p> Subiel, programowanie jest fajne.</p>
+</body>
+</html>
+*/}
+
+
+
+p {
+	color: yellow;
+	font-size: 83px;
+abc{ color: #333; /* 22.11.2022 Subiel */}
+  }
