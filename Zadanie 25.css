@@ -1,0 +1,115 @@
+p
+{
+}
+span
+{
+font-family: sans-serif;
+text-align: center;
+}
+p#zadanie_1
+{
+text-align: right;
+text-indent: 3cm;
+line-height: 1,2cm;
+word-spacing: 9px;
+letter-spacing: 3ex;
+color: 	#ffcc33;
+text-decoration: overline;
+font-variant: small-caps;
+font-size: 0,5in;
+font-weight: 800;
+}
+p#zadanie_2
+{
+text-align: right;
+text-indent: 3cm;
+line-height: 1,2cm;
+word-spacing: 9px;
+letter-spacing: 3ex;
+color: 	#ffcc33;
+font-size: large;
+font-weight: 600;
+text-transform: uppercase;
+}
+
+p#zadanie_3
+{
+text-align: right;
+text-indent: 3cm;
+line-height: 1,2cm;
+word-spacing: 9px;
+letter-spacing: 3ex;
+color: 	#ffcc33;
+font-size: xx-small;
+font-weight: 400;
+font-style: italic;
+}
+p#zadanie_4
+{
+text-align: center;
+text-indent: 15mm;
+line-height: 18mm;
+word-spacing: 13pt;
+letter-spacing: 0,3cm;
+color: 	#0b93a5;
+text-decoration: underline;
+font-size: 1in;
+font-weight:800;
+text-transform: capitalize;
+}
+p#zadanie_5
+{
+text-align: center;
+text-indent: 15mm;
+ line-height: 18mm;
+ word-spacing: 13pt;
+ letter-spacing: 0,3cm;
+color: 	#0b93a5;
+font-size: 40px;
+font-weight:600;
+font-variant: small-caps;
+
+}
+p#zadanie_6
+{text-align: center;
+text-indent: 15mm;
+line-height: 18mm;
+word-spacing: 13pt;
+letter-spacing: 0,3cm;
+color: 	#0b93a5;
+font-size: 2em;
+font-weight:300;
+font-style: oblique;
+
+}
+
+
+
+
+h1
+{
+text-align: right;
+font-family: arial;
+color: red;
+}
+h2
+{
+font-family: arial;
+color: blue;
+}
+
+h2#do_prawej
+{
+text-align: right;
+}
+
+
+h2#centrowany
+{
+text-align: center;
+}
+
+
+
+
+	
