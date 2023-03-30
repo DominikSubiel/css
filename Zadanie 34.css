@@ -1,0 +1,31 @@
+h1 { 
+ width: 300pt;
+ height:2cm;
+ padding : 30px;
+ margin-left : 700px;
+ border : solid ;
+ border-top-color: #808080;
+ border-bottom-color: #800080;
+ border-left-color:#008000;
+ border-right-color: #000080; 
+ background : rgb(100,100,100);
+ }
+h2 { 
+ width: 400pt;
+ height:4cm;
+ padding : 50px;
+ margin : 40px;
+ border : double black;
+ background : rgb(192,192,192);
+ }
+ 
+ h3 { 
+ width: 250pt;
+ height:3cm;
+ padding : 20px;
+ margin-left : 1200px;
+ border : dotted purple;
+ background : rgb(128,128,128);
+     /* 
+Dominik Subiel 1P g2
+  */
