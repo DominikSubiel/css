@@ -1,42 +1,39 @@
-div#1_subiel
+div
+{
+}
+div#pierwszy_subiel
 {
  width: 792pt;
  background : rgb(255,30,218); 
- border-style: solid;
- border: 7pt;
- border-color: purple;
-    border-radius: 3;
+border : 7px purple solid;
+border-radius: 14mm;
 }
 
 
-div#2_subiel
+div#drugi_subiel
 {
- width: 992pt;
- background : rgb(4,255,105);
- border-style: solid;
- border: 3;
- border-color: black;
+    width: 992pt;
+    background : rgb(4,255,105);
+    border : 3px black solid;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 2;
+    border-radius: 13mm;
 }
 
 
-div#3_subiel
+div#trzeci_subiel
 {
  width: 1192pt;
  background : rgb(4,206,255);  
- border-style: solid;
- border: 5;
- border-color: navy;
+ border : 5px navy solid;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 1;
+    border-radius: 12mm;
 }
 
 p
 {
- font-size:11pt;   
+ font-size:12pt;   
 }
 
 p:first-child
