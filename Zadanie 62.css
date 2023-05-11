@@ -1,0 +1,15 @@
+p
+{
+font-size:21mm;
+color:RGB(253,115,23);
+}
+p:lang(pl)
+{
+color:RGB(8,255,33);;
+font-size:28mm;
+}
+p:lang(en)
+{
+font-size:35mm;
+color:RGB(255,189,7);;
+} 

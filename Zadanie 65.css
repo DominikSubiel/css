@@ -1,0 +1,46 @@
+div#1_subiel
+{
+ width: 792pt;
+ background : rgb(255,30,218); 
+ border-style: solid;
+ border: 7pt;
+ border-color: purple;
+    border-radius: 3;
+}
+
+
+div#2_subiel
+{
+ width: 992pt;
+ background : rgb(4,255,105);
+ border-style: solid;
+ border: 3;
+ border-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2;
+}
+
+
+div#3_subiel
+{
+ width: 1192pt;
+ background : rgb(4,206,255);  
+ border-style: solid;
+ border: 5;
+ border-color: navy;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1;
+}
+
+p
+{
+ font-size:11pt;   
+}
+
+p:first-child
+{
+    font-size:7mm;
+    font-styl:italic;
+}

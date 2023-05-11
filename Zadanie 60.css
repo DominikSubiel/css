@@ -1,0 +1,48 @@
+div#blok1
+{
+ background : cyan;
+ width : 623px;
+ border : 1px;
+
+}
+
+div#blok2
+{
+ background :cyan;
+ width : 623px;
+ border : 1px;
+
+}
+
+div#blok3
+{
+ background : cyan;
+ width : 623px;
+ border : 1px;
+
+}
+
+
+div#blok1:hover 
+{
+background: orange;
+text-decoration: underline;
+font-size: 21mm;
+}
+
+div#blok2:hover 
+{
+background: lightgreen;
+text-decoration: underline;
+font-size: 21mm;
+}
+
+div#blok3:hover 
+{
+background: gold;
+text-decoration: underline;
+font-size: 21mm;
+}
+
+
+
